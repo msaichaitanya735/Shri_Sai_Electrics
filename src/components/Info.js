@@ -22,9 +22,50 @@ const Info = () => {
              <span className='colors_section_grey'></span>
           </div>
        </div>
-       <div>
+       <div className='specifications'>
           <h1>SPECIFICATIONS</h1>
-         
+          <table id="customers">
+  <tr>
+    <th>DETAILS</th>
+    <th>RATE</th>
+   
+  </tr>
+  <tr>
+    <td>Cute</td>
+    <td>48v / 60v</td>
+   
+  </tr>
+  <tr>
+    <td>Motor</td>
+    <td>250w</td>
+    
+  </tr>
+  <tr>
+    <td>Battery</td>
+    <td>48V-24AH</td>
+    
+  </tr>
+  <tr>
+    <td>Speed</td>
+    <td>25KM/H</td>
+    
+  </tr>
+  <tr>
+    <td>Range</td>
+    <td>60 / 75KM</td>
+    
+  </tr>
+  <tr>
+    <td>Headlight</td>
+    <td>Led</td>
+    
+  </tr>
+  <tr>
+    <td>Front</td>
+    <td>Alloy wheel</td>
+    
+  </tr>
+  </table>
        </div>
     </div>
   )
