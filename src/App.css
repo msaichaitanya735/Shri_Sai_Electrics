@@ -719,7 +719,10 @@ blockquote:after {
     width: 1.5rem;
     margin-right: 1rem;
   }
-
+  .credits{
+    font-size: 0.8rem;
+    margin: 1rem 0.2rem;
+  }
 }
 .carousel2iamge{
   position: relative;
@@ -768,4 +771,10 @@ blockquote:after {
 .navcontactmail img{
   width: 3rem;
   margin-right: 2rem;
+}
+.credits{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0.5rem 1rem;
 }

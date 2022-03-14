@@ -5,6 +5,7 @@ import map from '../img/map.JPG'
 import call from '../img/Call.svg';
 import mail from '../img/Mail.svg';
 
+
 const NavBar = () => {
   return (
     <div>
@@ -29,6 +30,7 @@ const NavBar = () => {
             </a>
           </div>
       </div>
+      <div className='credits'> Designed and Developed by SaiChaitanya Muthyala & Bharath KBPR </div>
     </div>
   )
 }
