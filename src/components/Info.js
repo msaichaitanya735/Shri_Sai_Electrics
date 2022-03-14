@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../img/cute_banner.jpg'
 import img from '../img/blue-bike.png'
+import NavBar from './NavBar'
 const Info = () => {
   return (
     <div>
@@ -67,6 +68,7 @@ const Info = () => {
   </tr>
   </table>
        </div>
+       <NavBar/>
     </div>
   )
 }
