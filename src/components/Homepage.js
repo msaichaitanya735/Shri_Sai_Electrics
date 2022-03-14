@@ -15,16 +15,17 @@ import mobcarousal2 from '../img/mob-car2.svg';
 import mobcarousal3 from '../img/mob-car3.svg';
 
 const Homepage = () => {
-  let slides = width<600?[
+
+
+  var width = window.innerWidth;
+  console.log(width);
+  let slides = width>600?[
     <img  src={carousel1} alt="1" />,
     <img  src={carousel2} alt="2" />  ,
     <img  src={carousel3} alt="3" />  ,
   ]:[<img  src={mobcarousal} alt="1" />,
   <img  src={mobcarousal2} alt="2" />  ,
   <img  src={mobcarousal3} alt="3" />  ,];
-
-  var width = window.innerWidth;
-  console.log(width);
   return (
     <div>
     {/* <HomeScreen /> */}

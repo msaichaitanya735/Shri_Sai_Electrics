@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from '../img/blackscooty.jpg'
+
 const Fourbikes = () => {
   return (
     <div>
@@ -9,7 +10,7 @@ const Fourbikes = () => {
            <img className='bike_img' src={img1} alt="" />
            <div className='content'>
            <h3>RUSH</h3>
-           <button>KNOW MORE</button>
+           <a href="/rushinfo"><button>KNOW MORE</button></a>
 
          </div>
          </div>
@@ -19,7 +20,7 @@ const Fourbikes = () => {
            <img src={img1} alt="" />
            <div className='content'>
            <h3>CUTE</h3>
-           <a href="/info"><button>KNOW MORE</button></a>
+           <a href="/cuteinfo"><button>KNOW MORE</button></a>
 
          </div>
          </div>
@@ -35,7 +36,7 @@ const Fourbikes = () => {
            <img src={img1} alt="" />
            <div className='content'>
            <h3>LIAM</h3>
-           <button>KNOW MORE</button>
+           <a href="/liaminfo"><button>KNOW MORE</button></a>
 
          </div>
          </div>

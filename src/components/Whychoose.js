@@ -6,9 +6,7 @@ const Whychoose = () => {
        <div className='choose_us_section'>
          <div className='choose_title'>
          <h1>WHY CHOOSE US</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          exercitationem repellendus aut. Aliquid facere necessitatibus aspernatur alias 
-         sint?</p>
+          <p>The first and foremost reason that can motivate you to buy an EV is the maintenance cost. If you buy a bike with an petrol engine, it will have more mechanical parts and therefore will have more complexities and difficulty in maintenance. EVs are easy and cheaper to maintain because of their simple structure and operations.</p>
          </div>
          <div className='choose_features'>
              <div className='choose_features_points'>

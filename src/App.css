@@ -216,6 +216,7 @@ margin: 0 3rem;
     color: #f66b08;
     -webkit-text-stroke: 2px black;
   }
+
 }
 .showcase_bikes{
   margin-top: 3rem;
@@ -228,7 +229,7 @@ margin: 0 3rem;
   width: 300px;
   cursor: pointer;
   overflow: hidden;
-  
+  margin-bottom: 2rem;
  position: relative;
 
 }
@@ -552,6 +553,10 @@ blockquote:after {
   font-size: 5rem;
 
 }
+.bike_details_section_intro .price{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
 
 .bike_details_section_intro h3{
   margin: 1rem 0;
@@ -612,11 +617,13 @@ blockquote:after {
     font-size: 3rem;
   
   }
+  .bike_details_section_intro .price{
+    font-size: 2.5rem;
+
+  }
   
-  .bike_details_section_intro h3{
-  
-   
-    font-size: 2rem;
+  .bike_details_section_intro h3{   
+    font-size: 1.5rem;
   }
   .bike_details_section_intro p{
   margin-top: 1rem;
@@ -656,15 +663,18 @@ blockquote:after {
 }
 
 .navbarcontainer{
+  margin-top: 2rem;
   display: flex;
   background-color: #000;
   align-items: center;
   justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .logocontainer{
   width:10rem;
   padding: 4rem;
 }
+
 .logocontainer img{
   width: 100%;
 }
@@ -675,6 +685,7 @@ blockquote:after {
   justify-content: center;
   margin:2rem;
   font-size: 1.5rem;
+  align-items: center;
 }
 @media(max-width:669px){
   #customers{
@@ -684,7 +695,16 @@ blockquote:after {
     flex-direction: column;
   }
   .contactcontainer{
+    margin-top: -0.5rem;
     font-size: 1rem;
+  }
+  .contactcontainer h1{
+    font-size: 1.5rem;
+  }
+  .logocontainer{
+    width: 7rem;
+    padding: 1rem;
+
   }
 }
 .carousel2iamge{
