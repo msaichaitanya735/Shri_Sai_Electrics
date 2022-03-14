@@ -227,6 +227,7 @@ margin: 0 3rem;
 }
 .bike_type{
   width: 300px;
+  height: 300px;
   cursor: pointer;
   overflow: hidden;
   margin-bottom: 2rem;
@@ -663,12 +664,11 @@ blockquote:after {
 }
 
 .navbarcontainer{
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   display: flex;
   background-color: #000;
   align-items: center;
   justify-content: space-around;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .logocontainer{
   width:10rem;
@@ -704,8 +704,22 @@ blockquote:after {
   .logocontainer{
     width: 7rem;
     padding: 1rem;
-
   }
+  .navcontact{
+    flex-direction: column;
+  }
+  .navcontact h1{
+    font-size: 1.3rem;
+  }
+  .navcontactcall img{
+    width: 1.5rem;
+    margin-right: 1rem;
+  }
+  .navcontactmail img{
+    width: 1.5rem;
+    margin-right: 1rem;
+  }
+
 }
 .carousel2iamge{
   position: relative;
@@ -726,4 +740,32 @@ blockquote:after {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.navcontact{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+  background-color: #f66b08;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.navcontactcall{
+  display: flex;
+  align-items: center;
+
+}
+.navcontactcall img{
+  width: 3rem;
+  margin-right: 2rem;
+  color: white  ;
+}
+.navcontactmail{
+  display: flex;
+  align-items: center;
+}
+.navcontactmail img{
+  width: 3rem;
+  margin-right: 2rem;
 }

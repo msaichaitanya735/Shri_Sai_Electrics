@@ -1,5 +1,8 @@
 import React from 'react'
 import img1 from '../img/blackscooty.jpg'
+import rush from '../img/red-bike.png'
+import cute from '../img/blue-bike.png'
+
 
 const Fourbikes = () => {
   return (
@@ -7,7 +10,7 @@ const Fourbikes = () => {
         <div className='showcase_bikes'>
       
          <div className='bike_type'>
-           <img className='bike_img' src={img1} alt="" />
+           <img className='bike_img' src={rush} alt="" />
            <div className='content'>
            <h3>RUSH</h3>
            <a href="/rushinfo"><button>KNOW MORE</button></a>
@@ -17,7 +20,7 @@ const Fourbikes = () => {
         
          
          <div className='bike_type'>
-           <img src={img1} alt="" />
+           <img src={cute} alt="" />
            <div className='content'>
            <h3>CUTE</h3>
            <a href="/cuteinfo"><button>KNOW MORE</button></a>
