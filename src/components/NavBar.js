@@ -30,7 +30,7 @@ const NavBar = () => {
             </a>
           </div>
       </div>
-      <div className='credits'> Designed and Developed by SaiChaitanya Muthyala & Bharath KBPR </div>
+      <div className='credits'> Designed and Developed by Sreejith Muthyala & Bharath KBPR </div>
     </div>
   )
 }
